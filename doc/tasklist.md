@@ -18,14 +18,14 @@
 | 5 | Retrieval | ✅ | top-k + score в консоли |
 | 6 | Demo-ответ | ✅ | ответ + источники без UI |
 | 7 | Streamlit UI | ✅ | 3 demo-вопроса в браузере |
-| 8 | Тесты и README | ⬜ | `pytest` green, README воспроизводим |
+| 8 | Тесты и README | ✅ | `pytest` green, README воспроизводим |
 | 9 | Документ о данных и репозитории | ⬜ | `doc/DATA.md` — источники, назначение |
 | 10 | Домашнее задание | ⬜ | `homework/` — планирование + итерации |
 
 **Легенда:** ⬜ не начато · 🔄 в работе · ✅ готово · ❌ блокер
 
-**Текущая итерация:** 8  
-**Готовность MVP:** 8 / 11
+**Текущая итерация:** 9  
+**Готовность MVP:** 9 / 11
 
 ---
 
@@ -146,8 +146,8 @@ Demo-вопросы:
 
 ## Итерация 8 — Тесты и README
 
-- [ ] `tests/test_chunking.py`, `tests/test_retrieval.py` — 3–5 тестов
-- [ ] Корневой `README.md` — uv, build_index, streamlit, demo-вопросы
+- [x] `tests/test_chunking.py`, `tests/test_retrieval.py` — 3–5 тестов
+- [x] Корневой `README.md` — uv, build_index, streamlit, demo-вопросы
 
 **Проверка:**
 ```bash
