@@ -20,12 +20,12 @@
 | 7 | Streamlit UI | ✅ | 3 demo-вопроса в браузере |
 | 8 | Тесты и README | ✅ | `pytest` green, README воспроизводим |
 | 9 | Документ о данных и репозитории | ✅ | `doc/DATA.md` — источники, назначение |
-| 10 | Домашнее задание | ⬜ | `homework/` — планирование + итерации |
+| 10 | Домашнее задание | ✅ | `homework/` — планирование + итерации |
 
 **Легенда:** ⬜ не начато · 🔄 в работе · ✅ готово · ❌ блокер
 
 **Текущая итерация:** 10  
-**Готовность MVP:** 10 / 11
+**Готовность MVP:** 11 / 11
 
 ---
 
@@ -183,18 +183,18 @@ print('OK')
 
 Структура: **сначала планирование (md-файлы по одному)**, **потом реализация (каждая итерация — отдельный шаг)**.
 
-- [ ] `homework/README.md` — цель задания, порядок шагов, критерии сдачи
-- [ ] `homework/00_planning/README.md` — обзор фазы планирования
-- [ ] Шаги планирования (отдельный файл на каждый md в `doc/`):
-  - [ ] `homework/00_planning/step_01_project_idea.md` → @00_project_idea.md
-  - [ ] `homework/00_planning/step_02_vision.md` → @vision.md
-  - [ ] `homework/00_planning/step_03_conventions.md` → @conventions.md
-  - [ ] `homework/00_planning/step_04_tasklist.md` → @tasklist.md
-  - [ ] `homework/00_planning/step_05_workflow.md` → @workflow.md
-- [ ] `homework/01_implementation/README.md` — обзор фазы реализации
-- [ ] Шаги реализации (отдельный файл на каждую итерацию 0–8):
-  - [ ] `iter_00_scaffold.md` … `iter_08_tests_readme.md`
-- [ ] В каждом step-файле: **что сделать**, **какие файлы**, **как проверить**, **ожидаемый результат**
+- [x] `homework/README.md` — цель задания, порядок шагов, критерии сдачи
+- [x] `homework/00_planning/README.md` — обзор фазы планирования
+- [x] Шаги планирования (отдельный файл на каждый md в `doc/`):
+  - [x] `homework/00_planning/step_01_project_idea.md` → @00_project_idea.md
+  - [x] `homework/00_planning/step_02_vision.md` → @vision.md
+  - [x] `homework/00_planning/step_03_conventions.md` → @conventions.md
+  - [x] `homework/00_planning/step_04_tasklist.md` → @tasklist.md
+  - [x] `homework/00_planning/step_05_workflow.md` → @workflow.md
+- [x] `homework/01_implementation/README.md` — обзор фазы реализации
+- [x] Шаги реализации (отдельный файл на каждую итерацию 0–8):
+  - [x] `iter_00_scaffold.md` … `iter_08_tests_readme.md`
+- [x] В каждом step-файле: **что сделать**, **какие файлы**, **как проверить**, **ожидаемый результат**
 
 **Проверка:**
 ```bash
@@ -219,8 +219,8 @@ print('OK:', len(required), 'файлов')
 
 ## Критерий «MVP готов»
 
-- [ ] Все итерации ✅ в таблице прогресса
-- [ ] 3 demo-вопроса — ответ с источником; 1 negative — отказ
-- [ ] Студент может пройти путь: `data/raw/` → index → Streamlit
-- [ ] `doc/DATA.md` описывает данные и назначение репозитория
-- [ ] `homework/` — студент может пройти задание шаг за шагом (планирование → итерации)
+- [x] Все итерации ✅ в таблице прогресса
+- [x] 3 demo-вопроса — ответ с источником; 1 negative — отказ
+- [x] Студент может пройти путь: `data/raw/` → index → Streamlit
+- [x] `doc/DATA.md` описывает данные и назначение репозитория
+- [x] `homework/` — студент может пройти задание шаг за шагом (планирование → итерации)
